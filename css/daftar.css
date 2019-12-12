@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.container .banner {
+    height: 100px;
+    background-color: rgb(27, 87, 13);
+    padding: 10px;
+}
+
+.container .banner .huruf img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.container .banner .huruf {
+    display: inline-block;
+    width: 750px;
+}
+
+.container .banner .huruf h2 {
+    margin-top: 13px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DDFF01;
+}
+
+.container .banner .huruf p {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+    height: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.header ul li a:hover {
+    color: greenyellow;
+}
+
+.header ul img {
+    float: right;
+    margin-top: 6px;
+    margin-right: 25px;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.header input[type="search"] {
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.content {
+    margin: auto;
+    width: 800px;
+}
+
+.line {
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(37, 126, 10);
+    margin-top: 40px;
+    width: 800px;
+    text-align: center;
+}
+
+.line .garis {
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 20px;
+    float: left;
+    width: 300px;
+    height: 5px;
+    background-color: rgb(201, 214, 19);
+    border-radius: 1px;
+}
+
+.line .garis2 {
+    float: right;
+    margin-top: -19px;
+    width: 300px;
+    height: 5px;
+    background-color: rgb(201, 214, 19);
+    border-radius: 1px;
+}
+
+.kotak {
+    width: 450px;
+    height: 350px;
+    background-color: #D4F5CC;
+    box-shadow: 8px 8px 8px #1EAB1E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+
+.kotak p {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.signupp {
+    padding: 15px 110px 15px 110px;
+}
+
+.signupp input {
+    padding: 5px;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    width: 225px;
+    height: 20px;
+    border-color: #d6d1d1ce;
+}
+
+.signupp input[type=submit] {
+    margin: 20px auto;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signupp input[type=submit]:hover {
+    background-color: darkgreen;
+}
+
+.masuk a {
+    color: #AC910A;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    font-family: Segoe UI;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

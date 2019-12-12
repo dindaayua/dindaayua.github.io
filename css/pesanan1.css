@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.container .banner {
+    height: 100px;
+    background-color: rgb(27, 87, 13);
+    padding: 10px;
+}
+
+.container .banner .huruf img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.container .banner .huruf {
+    display: inline-block;
+    width: 750px;
+}
+
+.container .banner .huruf h2 {
+    margin-top: 13px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DDFF01;
+}
+
+.container .banner .huruf p {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+    height: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.header ul li a:hover {
+    color: greenyellow;
+}
+
+.header ul img {
+    float: right;
+    margin-top: 6px;
+    margin-right: 25px;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.header input[type="search"] {
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+}
+
+.line h2 {
+    font-size: 24px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.line .garis1 {
+    width: 670px;
+    height: 5px;
+    float: right;
+    background-color: black;
+    margin-top: -9px;
+    border-radius: 1px;
+}
+
+form.bio {
+    margin-top: 10px;
+    width: 50%;
+}
+
+form div.biodata {
+    padding: 15px 0 0 0;
+    float: left;
+    margin-right: 60px;
+}
+
+form div.biodata label {
+    display: block;
+    font-size: 16px;
+}
+
+form div.biodata input {
+    margin: 3px 0 0 0;
+    padding: 6px;
+    font-size: 14px;
+    width: 200px;
+    font-family: poppins;
+}
+
+.form-bayar {
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 40vw;
+    padding: 20px;
+}
+
+form div.biodata label {
+    display: block;
+    font-size: 15px;
+}
+
+.form-bayar {
+    background-color: whitesmoke;
+    width: 480px;
+    height: 300px;
+    font-size: 18px;
+    margin-top: 80px;
+}
+
+form div.biodata textarea {
+    padding: 6px;
+    margin: 3px 0 20px;
+    width: 200px;
+    height: 100px;
+    font-family: poppins;
+}
+
+.form-main input {
+    margin: auto;
+    width: 90%;
+    padding: 9px;
+}
+
+
+}
+.form-bayar .pesanan-anda p {
+    margin-top: 20px;
+    font-size: 0px;
+    float: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.form-bayar .pesanan-anda .kanan {
+    float: right;
+    text-align: right;
+}
+.form-bayar .pesanan-anda h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pembayaran input {
+    margin-top: 10px;
+}
+.pembayaran input[type=button] {
+    background-color: darkgreen;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.pembayaran input[type=button]:hover {
+    background-color: forestgreen;
+}
+.footer {
+    margin-top: 100px;
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy {
+    font-family: Segoe UI;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

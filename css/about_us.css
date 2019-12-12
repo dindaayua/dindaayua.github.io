@@ -1,0 +1,164 @@
+body {
+    background-image: url(../img/pinar-del-rio-1600.jpg);
+}
+
+.container1 {
+    width: 800px;
+    height: 770px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.banner {
+    height: 100px;
+    background-color: rgb(27, 87, 13);
+    padding: 10px;
+}
+
+.banner .huruf img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.banner .huruf {
+    display: inline-block;
+    width: 750px;
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+    height: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.header ul li a:hover {
+    color: greenyellow;
+}
+
+.header ul img {
+    float: right;
+    margin-top: 6px;
+    margin-right: 25px;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.header input[type="search"] {
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.huruf h2 {
+    margin-top: 13px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DDFF01;
+}
+
+.huruf p {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.header .cari {
+    float: right;
+}
+
+.aboutus {
+    padding: 0 50px 250px 30px;
+}
+
+.aboutus .isii {
+    text-align: justify;
+    margin: 30px auto;
+    padding: 5%;
+    width: 500px;
+    border-radius: 50px;
+    background-color: rgba(94, 255, 0, 0.616);
+}
+
+.aboutus .line {
+    width: 750px;
+    text-align: center;
+}
+
+.aboutus .line .garis {
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 8px;
+    float: left;
+    width: 300px;
+    height: 3px;
+    background-color: black;
+    border-radius: 1px;
+}
+
+.aboutus .line .garis2 {
+    float: right;
+    margin-top: -10px;
+    width: 300px;
+    height: 3px;
+    background-color: black;
+    border-radius: 1px;
+}
+
+.aboutus .poto1,
+.poto2 {
+    font-size: 25px;
+}
+
+.aboutus .poto1 img {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.aboutus .poto2 img {
+    margin-top: 70px;
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.aboutus .poto1 h2 {
+    margin-top: 50px;
+}
+
+.aboutus .poto2 h2 {
+    margin-top: 100px;
+    float: right;
+}
+
+.aboutus .poto2 p {
+    margin-top: 10px;
+    float: right;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

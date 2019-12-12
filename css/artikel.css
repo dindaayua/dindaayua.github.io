@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.container .banner {
+    height: 100px;
+    background-color: rgb(27, 87, 13);
+    padding: 10px;
+}
+
+.container .banner .huruf img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.container .banner .huruf {
+    display: inline-block;
+    width: 750px;
+}
+
+.container .banner .huruf h2 {
+    margin-top: 13px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DDFF01;
+}
+
+.container .banner .huruf p {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+    height: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.header ul li a:hover {
+    color: greenyellow;
+}
+
+.header ul img {
+    float: right;
+    margin-top: 6px;
+    margin-right: 25px;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.header input[type="search"] {
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.content {
+    margin-left: 230px;
+}
+
+.line {
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(37, 126, 10);
+    margin-top: 40px;
+    width: 800px;
+    text-align: center;
+}
+
+.line .garis {
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 20px;
+    float: left;
+    width: 300px;
+    height: 5px;
+    background-color: rgb(201, 214, 19);
+    border-radius: 1px;
+}
+
+.line .garis2 {
+    float: right;
+    margin-top: -19px;
+    width: 300px;
+    height: 5px;
+    background-color: rgb(201, 214, 19);
+    border-radius: 1px;
+}
+
+.isi1 {
+    margin-top: 20px;
+}
+
+.isi1 .kotak1 {
+    padding: 10px;
+    width: 700px;
+}
+
+.isi1 .kotak1 img {
+    margin-top: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+.isi1 .kotak1 h2 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.isi1 .kotak1 p {
+    margin-top: 80px;
+    margin-left: 40px;
+    position: absolute;
+    font-style: italic;
+    display: inline-block;
+    font-size: 15px;
+    width: 410px;
+}
+
+.isi1 .kotak1 a {
+    position: absolute;
+    background-color: green;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    font-family: Lohit Telugu;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+.footer {
+    margin-top: 15px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    font-family: Segoe UI;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

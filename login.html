@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dunia Tembakau</title>
+    <link rel="shortcut icon" href="img/icon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <div class="huruf">
+                <img src="img/asset-4.png">
+                <h2>Dunia Tembakau</h2>
+                <p>informasi menarik seputar tembakau bisa kamu dapatkan pada web ini</p>
+            </div>
+        </div>
+        <div class="header">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+                <li><a href="katalog.html">Produk</a></li>
+                <li><a href="about_us.html">Tentang</a></li>
+                <a href="keranjang.html"><img src="img/keranjang.png"></a>
+                <a href="login.html"><img src="img/user.png"></a>
+                <input type="search" placeholder="Cari...">
+            </ul>
+        </div>
+    </div>
+
+    <!--Form Login-->
+    <div class="content">
+        <div class="line">
+            <div class="garis"></div>
+            <h2>MASUK</h2>
+            <div class="garis2"></div>
+            <div class="clear"></div>
+        </div>
+        <div class="kotak">
+            <div class="loginn">
+                <form name="login" onsubmit="return validasi()">
+                    <p>E-mail</p>
+                    <input type="text" name="email" required>
+                    <p>Password</p>
+                    <input type="password" name="password" required>
+                    <input type="submit" name="submit" value="Masuk">
+                </form>
+                <div class="daftar">
+                    Belum memiliki akun? daftar
+                    <a href="daftar.html"> disini </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--footer-->
+    <div class="footer">
+        <p class="copy">Copyright 2019.Dunia Tembakau</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.container .banner {
+    height: 100px;
+    background-color: rgb(27, 87, 13);
+    padding: 10px;
+}
+
+.container .banner .huruf img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.container .banner .huruf {
+    display: inline-block;
+    width: 750px;
+}
+
+.container .banner .huruf h2 {
+    margin-top: 13px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DDFF01;
+}
+
+.container .banner .huruf p {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+    height: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.header ul li a:hover {
+    color: greenyellow;
+}
+
+.header ul img {
+    float: right;
+    margin-top: 6px;
+    margin-right: 25px;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.header input[type="search"] {
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+}
+
+.content h2 {
+    margin-top: 100px;
+    margin-left: 160px;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content p {
+    margin-top: 50px;
+    margin-left: 190px;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 175px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    font-family: Segoe UI;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
